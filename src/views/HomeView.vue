@@ -1,13 +1,15 @@
 <template>
-    <helloworld />
+  <div id="HomeView">
+    <ToolBar />
+  </div>
 </template>
 
 <script>
-  import helloworld from '../components/HelloWorld.vue';
+import ToolBar from '@/components/ToolBar.vue';
 export default {
   name: 'HomeView',
   components: {
-    helloworld,
+    ToolBar,
   }
 }
 </script>
